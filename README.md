@@ -1,5 +1,3 @@
-# pipedrive-php
-
 <h1>Cliente em php para API do Pipedrive</h1>
 
 Uso:
@@ -10,10 +8,12 @@ require_once 'vendor/autoload.php';
 use App\Pipedrive;
 $pipedrive = new Pipedrive('apikey');
 $params = array(
-    'id' => 7,
+    'id' => id_number,
     
 );
-var_dump($pipedrive->deal->deleteDeal(7, $params));
+//DEL request 
+$pipedrive->deal->deleteDeal(id_number, $params);
+
 ?>
 
 ```
