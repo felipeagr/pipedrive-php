@@ -2,6 +2,8 @@
 
 Uso:
 
+composer install
+
 ```php
 
 require_once 'vendor/autoload.php';
