@@ -4,7 +4,8 @@
 
 Uso:
 
-<?php
+```php
+
 require_once 'vendor/autoload.php';
 use App\Pipedrive;
 $pipedrive = new Pipedrive('apikey');
@@ -14,3 +15,5 @@ $params = array(
 );
 var_dump($pipedrive->deal->deleteDeal(7, $params));
 ?>
+
+```
